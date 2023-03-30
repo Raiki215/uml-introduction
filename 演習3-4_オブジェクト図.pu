@@ -1,0 +1,22 @@
+@startuml 演習３－４
+object "車:車クラス" as car{
+    
+}
+object "車:タイヤクラス" as タイヤ1{
+    
+}
+object "車:タイヤクラス" as タイヤ2{
+    
+}
+object "車:タイヤクラス" as タイヤ3{
+    
+}
+object "車:タイヤクラス" as タイヤ4{
+    
+}
+car--タイヤ1
+car--タイヤ2
+car--タイヤ3
+car--タイヤ4
+
+@enduml
