@@ -4,7 +4,7 @@ participant "利用者:user" as u
 participant ":予約画面" as  y
 activate u
 activate y
-user ->> y :ログイン ()
+u ->> y :ログインする ()
 y -> y: 認証（）
 activate y
 deactivate u
