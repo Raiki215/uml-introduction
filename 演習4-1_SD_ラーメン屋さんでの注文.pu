@@ -1,0 +1,20 @@
+@startuml
+hide footbox
+
+Actor 客 as a
+
+participant "：フロア店員" as b
+participant "：料理人" as c
+
+activate a
+activate b
+activate c
+a -> b :ラーメンを注文する
+b -> c :調理を指示する
+c -> c :調理をする
+b <-- c :ラーメン
+a <-- b :ラーメン
+deactivate a
+deactivate b
+deactivate c
+@enduml
