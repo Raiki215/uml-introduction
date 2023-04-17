@@ -13,12 +13,12 @@ activate b
 b -> c :商品検索（商品番号）
 activate c
 create d
-c --> d :<<create>>生成（）
+c -->> d :<<create>>生成（）
 
 
 loop 商品カテゴリ
 create e
-c --> e :<<create>>生成（） 
+c -->> e :<<create>>生成（） 
 c -> d :商品カテゴリ設定
 activate d
 deactivate d
