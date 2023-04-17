@@ -1,5 +1,7 @@
 @startuml
 
+hide footbox
+
 actor 会員 as a 
 
 participant "：商品検索画面" as b <<boundary>>
