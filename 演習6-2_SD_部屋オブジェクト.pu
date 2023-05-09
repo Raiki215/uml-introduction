@@ -1,0 +1,15 @@
+@startuml
+state fork_state <<fork>>
+[*] --> fork_state: 予約
+fork_state --> 空室状態
+fork_state --> 予約済み状態
+fork_state --> 使用状態
+
+state join_state <<join>>
+予約済み状態 --> join_state
+使用状態 --> join_state
+join_state --> 空室状態: 空室状態を探す
+
+空室状態 --> [*]:予約完了
+
+@enduml
