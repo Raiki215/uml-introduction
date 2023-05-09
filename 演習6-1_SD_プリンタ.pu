@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+[*] --> 待機中
+state c <<choice>>
+state c <<choice>>
+待機中-down-> c
+c--> 用紙なし
+c--> 印刷中: 待機完了
+印刷中--> [*] :印刷完了
+@enduml
