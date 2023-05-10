@@ -5,6 +5,7 @@ state c <<choice>>
 state c <<choice>>
 待機中-down-> c
 c--> 用紙なし
+用紙なし --> 印刷中: 用紙投入
 c--> 印刷中: 待機完了
 印刷中--> [*] :印刷完了
 @enduml
