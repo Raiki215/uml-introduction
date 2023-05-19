@@ -11,11 +11,14 @@ activate b
 deactivate b
 a -> c :ボタンを押す
 activate c
+opt お金入れてる状態
 c -> d : ドリンクの指示
 deactivate c
 activate d
 d -> d :ドリンクの発注
+activate d
 d --> a : ドリンク
 deactivate d
 deactivate a
+end alt
 @enduml
