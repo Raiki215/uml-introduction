@@ -2,16 +2,16 @@
 object "車:車" as car{
     
 }
-object "車:タイヤ" as タイヤ1{
+object "タイヤ1:タイヤ" as タイヤ1{
     
 }
-object "車:タイヤ" as タイヤ2{
+object "タイヤ2:タイヤ" as タイヤ2{
     
 }
-object "車:タイヤ" as タイヤ3{
+object "タイヤ3:タイヤ" as タイヤ3{
     
 }
-object "車:タイヤ" as タイヤ4{
+object "タイヤ4:タイヤ" as タイヤ4{
     
 }
 car--タイヤ1
