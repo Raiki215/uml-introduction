@@ -86,4 +86,7 @@ m -up-|> g
 n -up-|> g
 o -up-|> g
 
+hide members
+show fields
+
 @enduml
